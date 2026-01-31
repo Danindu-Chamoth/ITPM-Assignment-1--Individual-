@@ -2,8 +2,8 @@ const { test, expect } = require('@playwright/test');
 
 const testCases = [
   { id: 'Pos_Fun_0001', name: 'Convert simple daily sentence', length: 'S', 
-    input: 'mama gedhara yanavaa.', 
-    expected: 'මම ගෙදර යනවා.' },
+    input: 'mata kg 2 rice oonee', 
+    expected: 'මට kg 2 rice ඕනේ' },
 
   { id: 'Pos_Fun_0002', name: 'Convert simple request', length: 'S', 
     input: 'mata bath oonee.', 
